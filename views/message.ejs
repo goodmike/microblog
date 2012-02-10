@@ -1,0 +1,17 @@
+<div class="message-block">
+  <div id="messages">
+    <ul class="single">
+      <li>
+        <span class="message-text"><%= items[0].value.text %></span>
+        <span class="single">@</span>
+        <span class="date-time"><%= items[0].value.dateCreated %></span>
+        <span class="single">by</span>
+        <a rel="user" href="<%= site %>users/<%= items[0].value.user %>"
+           title="<%= items[0].value.user %>">
+        <span class="user-text"><%=items[0].value.user%></span>
+          </a>
+        </li>
+    </ul>
+  </div>
+  &#160;
+</div>
